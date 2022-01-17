@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: linear-gradient(rgb(47,150,163) ,rgb(48,62,143)); */
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.location , .temprature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.temprature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+margin: 10px;
+font-size: 30px;
+}
+.degree-section h2 {
+    font-size : 40px;
+
+}
+#submit{
+    border-radius: 10px;
+    background-color: rgb(59, 58, 58);
+    border: 
+    #404040
+     1px solid;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 2px;
+
+}
+#city{
+    padding-left : 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    border-radius: 12px;
+    border :rgb(59, 58, 58)  1px solid;
+    background-color: #404040;
+    color: aliceblue;
+    
+}
+.name{
+    font-size: 32px;
+    font-weight: bold;
+    
+    
+}
+.temprature-description{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
